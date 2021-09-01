@@ -1,0 +1,41 @@
+body {
+    background-color: wheat;
+}
+
+
+.section {
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.container {
+    margin-left: 400px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: grid;
+    /* grid-template-columns: repeat(16, 37.5px);
+    grid-template-rows: repeat(16, 37.5px); */
+    
+}
+
+.grid {
+    border: 1px solid black;
+    
+}
+
+button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+    display: inline-block;
+}
